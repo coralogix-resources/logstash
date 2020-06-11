@@ -3,3 +3,21 @@ start logstash
 sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/
 
 
+command - apache log 
+sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/logstash/apache/apache-access-final.conf
+
+command - elasticsearch_slowlogs
+sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/logstash/apache/apache-access-final.conf
+
+command - iis
+sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/logstash/iis/iis-final-working.conf
+
+command - mongodb
+sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/logstash/mongodb/mongodb-final.conf
+
+command - mysql_slowlogs
+sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/logstash/mysql_slowlogs/mysql-slowlogs.conf
+
+command - nginx logs
+sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/logstash/nignx/nginx-access-final.conf
+
