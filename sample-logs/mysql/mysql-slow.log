@@ -44,4 +44,3 @@ CREATE TABLE recipe_ingredients (
   amount INT NOT NULL,
   PRIMARY KEY (recipe_id,ingredient_id)
 );
-
