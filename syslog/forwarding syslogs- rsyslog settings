@@ -1,0 +1,10 @@
+
+1. sudo vim /etc/rsyslog.d/50-default.conf
+2. add the following line , just above the commented line #First some standard log files. Log by facility
+*.*                         @@127.0.0.1:10514
+it will look as below
+https://drive.google.com/file/d/1EuYKAD9A9tIpj2Jy0xqsDWeRTEnJ_9zM/view?usp=sharing 
+
+3. save the file
+4. restart the syslog service 
+sudo service rsyslog restart
