@@ -21,3 +21,6 @@ sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/logstash/mysql_slo
 command - nginx logs
 sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/logstash/nignx/nginx-access-final.conf
 
+command - syslog logs
+sudo /usr/share/logstash/bin/logstash -f /etc/logstash/conf.d/logstash/syslog/syslog.conf
+
