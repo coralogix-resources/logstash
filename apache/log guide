@@ -1,0 +1,17 @@
+Combined apache log - fields
+referrer
+path
+ident (identifier)
+clientip
+message
+timestamp
+httpversion
+bytes
+@version
+request
+@timestamp
+host
+verb
+response
+auth
+agent 
