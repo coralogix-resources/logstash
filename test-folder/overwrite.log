@@ -14,3 +14,4 @@ org.elasticsearch.action.search.SearchPhaseExecutionException: all shards failed
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
 	at java.lang.Thread.run(Thread.java:832) [?:?]
+[2020-06-15T17:13:23,668][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen] and seed hosts providers [settings]
